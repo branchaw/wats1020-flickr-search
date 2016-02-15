@@ -3,6 +3,7 @@
    ========================================================================== */
 
 /* Enable these styles if you wish to go into a grid layout.
+
 ul#images li {
     width: 120px;
     height: auto;
@@ -23,6 +24,10 @@ ul#images li button {
 
 --- End of grid layout styles. */
 
+#search {
+  background-size: cover;
+}
+
 ul#images {
     list-style-type: none;
 }
@@ -34,6 +39,24 @@ ul#images .placeholder {
     width: 100%;
     margin: 2em;
 }
+
+ul#images .image-title {
+  font-size: 2em;
+}
+
+ul#images .image-date {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+ul#images .image-description {
+  font-weight: bold;
+}
+
+ul#images a {
+  font-weight: bold;
+}
+
 .modal-body img {
     width: 100%;
     height: auto;
